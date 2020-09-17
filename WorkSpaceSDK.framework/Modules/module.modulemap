@@ -1,0 +1,6 @@
+framework module WorkSpaceSDK {
+  umbrella header "WorkSpaceSDK.h"
+
+  export *
+  module * { export * }
+}
