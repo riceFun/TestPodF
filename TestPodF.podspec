@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TestPodF"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "this is s.summary s.summary s.summary s.summary s.summary s.summary"
   s.description  = <<-DESC
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/riceFun/TestPodF"
   s.license      = "MIT"
   s.author       = { "riceFun" => "adolphbaofan@163.com" }
-  s.source       = { :http => "https://github.com/riceFun/TestPodF.git", :tag => "#{s.version}"  }
+  s.source       = { :git => "https://github.com/riceFun/TestPodF.git", :tag => "#{s.version}"  }
   s.requires_arc = true
   s.platform     = :ios, "11.0"
   s.vendored_frameworks = "WorkSpaceSDK.framework"
