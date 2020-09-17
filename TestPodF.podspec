@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/riceFun/TestPodF"
   s.license      = "MIT"
   s.author       = { "riceFun" => "adolphbaofan@163.com" }
-  s.source       = { :https => "https://github.com/riceFun/TestPodF.git", :tag => "#{s.version}" }
+  s.source       = { :http => "https://github.com/riceFun/TestPodF.git", :tag => "#{s.version}"  }
   s.requires_arc = true
   s.platform     = :ios, "11.0"
   s.vendored_frameworks = "WorkSpaceSDK.framework"
